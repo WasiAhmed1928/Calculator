@@ -85,7 +85,7 @@ button.equal{
     grid-column: span 2;    
 }
 
-button.equal:hover {
+.equal:hover {
     background-color: #ffa733;
 }
 
