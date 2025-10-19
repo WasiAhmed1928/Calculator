@@ -1,12 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     margin: 0;
     padding: 0;
     background-color: aliceblue;
-    /* height: 100vh; */
     box-sizing: border-box;
 }
 
@@ -83,11 +79,14 @@ button:hover {
     background-color: #febc75;
 }
 
-button.zero{
-    text-align: left;
-    padding-left: 25px;
+button.equal{
+    background-color: #fb8e00;
     width: 130px;
     grid-column: span 2;    
+}
+
+button.equal:hover {
+    background-color: #ffa733;
 }
 
 .foot {
