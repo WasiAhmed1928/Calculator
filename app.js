@@ -1,7 +1,14 @@
 var display = document.getElementById("display");
 
 function press(val) {
-    display.value += val;
+
+    if (display.value == "Error"){
+        display.value = val;
+    } else {
+        display.value += val;
+    }
+    
+    display.scrollLeft = display.scrollWidth;
 }
 
 
